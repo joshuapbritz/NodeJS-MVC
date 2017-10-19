@@ -6,4 +6,8 @@ router.get('/', function(req, res, next) {
     res.render('home', { title: 'Home' });
 });
 
+router.get('/icons', function(req, res, next) {
+    res.render('components');
+});
+
 module.exports = router;
